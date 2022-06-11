@@ -1,0 +1,21 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\unreal projects\\batteryconnectiongame\\batteryconnectingame\\intermediate\\build\\win64\\unrealeditor\\inc\\batteryconnectingame\\batteryconnectingamecharacter.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\batteryconnectiongame\\batteryconnectingame\\intermediate\\build\\win64\\batteryconnectingameeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\batteryconnectiongame\\batteryconnectingame\\intermediate\\build\\win64\\unrealeditor\\development\\batteryconnectingame\\definitions.batteryconnectingame.h",
+            "d:\\unreal projects\\batteryconnectiongame\\batteryconnectingame\\source\\batteryconnectingame\\batteryconnectingamecharacter.h",
+            "d:\\program files\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\program files\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\program files\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
+            "d:\\program files\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\program files\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
+            "d:\\program files\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
+            "d:\\unreal projects\\batteryconnectiongame\\batteryconnectingame\\intermediate\\build\\win64\\unrealeditor\\inc\\batteryconnectingame\\batteryconnectingamecharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
