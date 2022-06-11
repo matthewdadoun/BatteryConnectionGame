@@ -37,10 +37,8 @@ void AMovingPlatform::PostInitializeComponents()
 			MyControlPoints.Add(FInterpControlPoint(Vector, true));
 		}
 		
-		//InterpToMovementComponent->ResetControlPoints();
 		InterpToMovementComponent->ControlPoints = MyControlPoints;
-		//InterpToMovementComponent->UpdatedComponent = RootComponent;
-		InterpToMovementComponent->Duration = 1; 
+		InterpToMovementComponent->Duration = DurationBetweenPoints; 
 	}
 }
 

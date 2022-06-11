@@ -34,6 +34,9 @@ protected:
 	UPROPERTY(EditDefaultsOnly, meta=(MakeEditWidget = "true"))
 	TArray<FVector> MovementPositions;
 
+	UPROPERTY(EditDefaultsOnly)
+	float DurationBetweenPoints; 
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
