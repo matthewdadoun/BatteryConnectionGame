@@ -11,6 +11,7 @@
     <None Include="..\..\Source\BatteryConnectinGameEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\AssetsvilleTown.png" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -63,6 +64,12 @@
       <Filter>Source\BatteryConnectinGame</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BatteryConnectinGame\BatteryConnectinGameProjectile.h">
+      <Filter>Source\BatteryConnectinGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BatteryConnectinGame\MovingPlatform.cpp">
+      <Filter>Source\BatteryConnectinGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BatteryConnectinGame\MovingPlatform.h">
       <Filter>Source\BatteryConnectinGame</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BatteryConnectinGame\TP_PickUpComponent.cpp">

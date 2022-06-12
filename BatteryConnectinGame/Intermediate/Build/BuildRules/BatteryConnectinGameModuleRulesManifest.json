@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Unreal\\projects\\BatteryGame\\BatteryConnectionGame\\BatteryConnectinGame\\Source\\BatteryConnectinGame\\BatteryConnectinGame.Build.cs",
-		"D:\\Unreal\\projects\\BatteryGame\\BatteryConnectionGame\\BatteryConnectinGame\\Source\\BatteryConnectinGame.Target.cs",
-		"D:\\Unreal\\projects\\BatteryGame\\BatteryConnectionGame\\BatteryConnectinGame\\Source\\BatteryConnectinGameEditor.Target.cs"
+		"D:\\Unreal Projects\\BatteryConnectionGame\\BatteryConnectinGame\\Source\\BatteryConnectinGame\\BatteryConnectinGame.Build.cs",
+		"D:\\Unreal Projects\\BatteryConnectionGame\\BatteryConnectinGame\\Source\\BatteryConnectinGame.Target.cs",
+		"D:\\Unreal Projects\\BatteryConnectionGame\\BatteryConnectinGame\\Source\\BatteryConnectinGameEditor.Target.cs"
 	],
 	"EngineVersion": "5.0.2"
 }
