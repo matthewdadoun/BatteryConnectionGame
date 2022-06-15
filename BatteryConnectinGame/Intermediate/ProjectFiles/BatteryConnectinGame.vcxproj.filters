@@ -66,6 +66,18 @@
     <ClInclude Include="..\..\Source\BatteryConnectinGame\BatteryConnectinGameProjectile.h">
       <Filter>Source\BatteryConnectinGame</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BatteryConnectinGame\BatteryPickup.cpp">
+      <Filter>Source\BatteryConnectinGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BatteryConnectinGame\BatteryPickup.h">
+      <Filter>Source\BatteryConnectinGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BatteryConnectinGame\BatteryPowerStation.cpp">
+      <Filter>Source\BatteryConnectinGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BatteryConnectinGame\BatteryPowerStation.h">
+      <Filter>Source\BatteryConnectinGame</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BatteryConnectinGame\MovingPlatform.cpp">
       <Filter>Source\BatteryConnectinGame</Filter>
     </ClCompile>

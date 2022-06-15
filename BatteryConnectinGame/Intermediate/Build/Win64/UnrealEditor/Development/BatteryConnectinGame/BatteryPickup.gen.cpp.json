@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\unreal\\projects\\batterygame\\batteryconnectiongame\\batteryconnectingame\\intermediate\\build\\win64\\unrealeditor\\inc\\batteryconnectingame\\batterypickup.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal\\projects\\batterygame\\batteryconnectiongame\\batteryconnectingame\\intermediate\\build\\win64\\batteryconnectingameeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\unreal\\projects\\batterygame\\batteryconnectiongame\\batteryconnectingame\\intermediate\\build\\win64\\unrealeditor\\development\\batteryconnectingame\\definitions.batteryconnectingame.h",
+            "d:\\unreal\\projects\\batterygame\\batteryconnectiongame\\batteryconnectingame\\source\\batteryconnectingame\\batterypickup.h",
+            "d:\\unreal\\projects\\batterygame\\batteryconnectiongame\\batteryconnectingame\\intermediate\\build\\win64\\unrealeditor\\inc\\batteryconnectingame\\batterypickup.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

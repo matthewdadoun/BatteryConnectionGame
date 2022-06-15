@@ -23,13 +23,13 @@ void EmptyLinkFunctionForGeneratedCodeBatteryConnectinGame_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x48ED7364,
-				0x8D15E572,
+				0x03E2790E,
+				0xBC48107C,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_BatteryConnectinGame.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_BatteryConnectinGame.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_BatteryConnectinGame(Z_Construct_UPackage__Script_BatteryConnectinGame, TEXT("/Script/BatteryConnectinGame"), Z_Registration_Info_UPackage__Script_BatteryConnectinGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x48ED7364, 0x8D15E572));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_BatteryConnectinGame(Z_Construct_UPackage__Script_BatteryConnectinGame, TEXT("/Script/BatteryConnectinGame"), Z_Registration_Info_UPackage__Script_BatteryConnectinGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x03E2790E, 0xBC48107C));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

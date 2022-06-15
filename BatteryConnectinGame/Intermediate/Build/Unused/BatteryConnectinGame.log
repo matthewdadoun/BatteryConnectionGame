@@ -4,31 +4,37 @@
   Creating makefile for BatteryConnectinGameEditor (no existing makefile)
   Parsing headers for BatteryConnectinGameEditor
     Running UnrealHeaderTool "D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\BatteryConnectinGame.uproject" "D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Intermediate\Build\Win64\BatteryConnectinGameEditor\Development\BatteryConnectinGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Mydoj\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for BatteryConnectinGameEditor in 70.2597145 seconds
+  Reflection code generated for BatteryConnectinGameEditor in 39.5190262 seconds
   Building BatteryConnectinGameEditor...
   Using Visual Studio 2019 14.29.30145 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
     Executing up to 6 processes, one per physical core
-    Requested 1.5 GB free memory per action, 8.92 GB available: limiting max parallel actions to 5
-  Building 17 actions with 5 processes...
-  [1/17] Resource Default.rc2
-  [2/17] Compile SharedPCH.Engine.ShadowErrors.cpp
-  [3/17] Compile TP_WeaponComponent.gen.cpp
-  [4/17] Compile BatteryConnectinGameGameMode.gen.cpp
-  [5/17] Compile TP_WeaponComponent.cpp
-  [6/17] Compile BatteryConnectinGame.cpp
-  [7/17] Compile BatteryConnectinGameProjectile.cpp
-  [8/17] Compile TP_PickUpComponent.cpp
-  [9/17] Compile BatteryConnectinGameCharacter.gen.cpp
-  [10/17] Compile BatteryConnectinGame.init.gen.cpp
-  [11/17] Compile BatteryConnectinGameProjectile.gen.cpp
-  [12/17] Compile BatteryConnectinGameGameMode.cpp
-  [13/17] Compile TP_PickUpComponent.gen.cpp
-  [14/17] Compile BatteryConnectinGameCharacter.cpp
-  [15/17] Link UnrealEditor-BatteryConnectinGame.lib
+    Requested 1.5 GB free memory per action, 7.16 GB available: limiting max parallel actions to 4
+  Building 23 actions with 4 processes...
+  [1/23] Resource Default.rc2
+  [2/23] Compile SharedPCH.Engine.ShadowErrors.cpp
+  [3/23] Compile BatteryConnectinGame.init.gen.cpp
+  [4/23] Compile BatteryConnectinGameGameMode.cpp
+  [5/23] Compile TP_WeaponComponent.cpp
+  [6/23] Compile BatteryConnectinGameProjectile.cpp
+  [7/23] Compile TP_PickUpComponent.cpp
+  [8/23] Compile BatteryConnectinGameCharacter.gen.cpp
+  [9/23] Compile BatteryConnectinGameProjectile.gen.cpp
+  [10/23] Compile BatteryConnectinGame.cpp
+  [11/23] Compile TP_WeaponComponent.gen.cpp
+  [12/23] Compile BatteryPowerStation.gen.cpp
+  [13/23] Compile BatteryPickup.gen.cpp
+  [14/23] Compile TP_PickUpComponent.gen.cpp
+  [15/23] Compile MovingPlatform.gen.cpp
+  [16/23] Compile BatteryConnectinGameGameMode.gen.cpp
+  [17/23] Compile BatteryPowerStation.cpp
+  [18/23] Compile MovingPlatform.cpp
+  [19/23] Compile BatteryPickup.cpp
+  [20/23] Compile BatteryConnectinGameCharacter.cpp
+  [21/23] Link UnrealEditor-BatteryConnectinGame.lib
      Creating library D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Intermediate\Build\Win64\UnrealEditor\Development\BatteryConnectinGame\UnrealEditor-BatteryConnectinGame.lib and object D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Intermediate\Build\Win64\UnrealEditor\Development\BatteryConnectinGame\UnrealEditor-BatteryConnectinGame.exp
-  [16/17] Link UnrealEditor-BatteryConnectinGame.dll
+  [22/23] Link UnrealEditor-BatteryConnectinGame.dll
      Creating library D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Intermediate\Build\Win64\UnrealEditor\Development\BatteryConnectinGame\UnrealEditor-BatteryConnectinGame.suppressed.lib and object D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Intermediate\Build\Win64\UnrealEditor\Development\BatteryConnectinGame\UnrealEditor-BatteryConnectinGame.suppressed.exp
-  [17/17] WriteMetadata BatteryConnectinGameEditor.target
-  Total time in Parallel executor: 120.78 seconds
-  Total execution time: 268.51 seconds
+  [23/23] WriteMetadata BatteryConnectinGameEditor.target
+  Total time in Parallel executor: 70.71 seconds
+  Total execution time: 118.62 seconds
