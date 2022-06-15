@@ -41,4 +41,6 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	/* Used to get a reference to the InterpToMovementComponent */
+
 };

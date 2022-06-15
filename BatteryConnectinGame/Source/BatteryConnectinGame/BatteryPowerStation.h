@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "BatteryPowerStation.generated.h"
 
+class AMovingPlatform; 
 UCLASS()
 class BATTERYCONNECTINGAME_API ABatteryPowerStation : public AActor
 {
@@ -19,8 +20,15 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	UPROPERTY(VisibleAnywhere)
+	UStaticMeshComponent* PowerStationMeshComponent;
+
+	UPROPERTY(EditDefaultsOnly)
+	TArray<AMovingPlatform*> MovingPlatforms;
+	
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	void SetPlatformsMoving(bool bPlatformsMoving);
 };

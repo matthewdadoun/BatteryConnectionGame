@@ -45,7 +45,6 @@ public:
 	UPROPERTY(BlueprintAssignable, Category = "Interaction")
 	FOnUseItem OnUseItem;
 protected:
-	
 	/** Fires a projectile. */
 	void OnPrimaryAction();
 
@@ -69,17 +68,23 @@ protected:
 
 	struct TouchData
 	{
-		TouchData() { bIsPressed = false;Location=FVector::ZeroVector;}
+		TouchData()
+		{
+			bIsPressed = false;
+			Location = FVector::ZeroVector;
+		}
+
 		bool bIsPressed;
 		ETouchIndex::Type FingerIndex;
 		FVector Location;
 		bool bMoved;
 	};
+
 	void BeginTouch(const ETouchIndex::Type FingerIndex, const FVector Location);
 	void EndTouch(const ETouchIndex::Type FingerIndex, const FVector Location);
 	void TouchUpdate(const ETouchIndex::Type FingerIndex, const FVector Location);
-	TouchData	TouchItem;
-	
+	TouchData TouchItem;
+
 protected:
 	// APawn interface
 	virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;
@@ -93,11 +98,18 @@ protected:
 	 */
 	bool EnableTouchscreenMovement(UInputComponent* InputComponent);
 
+	/** boolean to determine whether the user is holding a battery */
+	bool bIsHoldingBattery = false;
+
 public:
 	/** Returns Mesh1P subobject **/
 	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
-};
+	/** Returns whether the user is holding a battery */
+	FORCEINLINE bool GetIsHoldingBattery() const { return bIsHoldingBattery; }
 
+	/** Sets whether the user is holding a battery */
+	void SetIsHoldingBattery(bool bHoldState);
+};

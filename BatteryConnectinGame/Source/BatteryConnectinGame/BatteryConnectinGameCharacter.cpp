@@ -42,6 +42,8 @@ void ABatteryConnectinGameCharacter::BeginPlay()
 	// Call the base class  
 	Super::BeginPlay();
 
+	Mesh1P->SetVisibility(false, true);
+
 }
 
 //////////////////////////////////////////////////////////////////////////// Input
@@ -146,4 +148,10 @@ bool ABatteryConnectinGameCharacter::EnableTouchscreenMovement(class UInputCompo
 	}
 	
 	return false;
+}
+
+void ABatteryConnectinGameCharacter::SetIsHoldingBattery(bool bHoldState)
+{
+	Mesh1P->SetVisibility(bHoldState, true);
+	bIsHoldingBattery = bHoldState;
 }
