@@ -2,11 +2,14 @@
 
 #include "BatteryConnectinGameCharacter.h"
 #include "BatteryConnectinGameProjectile.h"
+#include "BatteryPickup.h"
 #include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/InputSettings.h"
+#include "GameFramework/PawnMovementComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 
 //////////////////////////////////////////////////////////////////////////
@@ -34,7 +37,6 @@ ABatteryConnectinGameCharacter::ABatteryConnectinGameCharacter()
 	Mesh1P->CastShadow = false;
 	Mesh1P->SetRelativeRotation(FRotator(1.9f, -19.19f, 5.2f));
 	Mesh1P->SetRelativeLocation(FVector(-0.5f, -4.4f, -155.7f));
-
 }
 
 void ABatteryConnectinGameCharacter::BeginPlay()
@@ -43,10 +45,54 @@ void ABatteryConnectinGameCharacter::BeginPlay()
 	Super::BeginPlay();
 
 	Mesh1P->SetVisibility(false, true);
-
 }
 
 //////////////////////////////////////////////////////////////////////////// Input
+
+void ABatteryConnectinGameCharacter::DropBattery()
+{
+	if (bIsHoldingBattery && GetMovementComponent()->IsMovingOnGround())
+	{
+		/** Setting beginning and ending point of the line trace */
+		FVector StartLocation = GetFirstPersonCameraComponent()->GetComponentLocation();
+		FVector EndLocation = GetFirstPersonCameraComponent()->GetComponentLocation() + (GetControlRotation().Vector() * DistanceToSpawnBattery);
+
+		FCollisionShape Shape;
+		Shape.SetSphere(20.0f);
+
+		FCollisionQueryParams Params;
+		Params.AddIgnoredActor(this);
+
+		// Sets which objects are part of the line trace
+		FCollisionObjectQueryParams ObjectQueryParams;
+		ObjectQueryParams.AddObjectTypesToQuery(ECC_WorldDynamic);
+		ObjectQueryParams.AddObjectTypesToQuery(ECC_WorldStatic);
+		ObjectQueryParams.AddObjectTypesToQuery(ECC_Pawn);
+
+		FHitResult HitResult;
+
+		FActorSpawnParameters SpawnParams;
+		SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+		SpawnParams.Instigator = this;
+
+		FRotator ProjRotation = FRotationMatrix::MakeFromX(EndLocation - StartLocation).Rotator();
+		
+		if (GetWorld()->SweepSingleByObjectType(HitResult, StartLocation, EndLocation, FQuat::Identity, ObjectQueryParams, Shape, Params))
+		{
+			// Overwrites trace end with impact point in world
+			EndLocation = HitResult.ImpactPoint;
+		}
+
+		//spawn actor at EndLocation
+		FTransform SpawnTM = FTransform(ProjRotation, EndLocation);
+		SetIsHoldingBattery(false);
+		GetWorld()->SpawnActor<ABatteryPickup>(BatteryPickupClass, SpawnTM, SpawnParams);
+	}
+}
+
+void ABatteryConnectinGameCharacter::InsertBattery()
+{
+}
 
 void ABatteryConnectinGameCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
@@ -56,6 +102,8 @@ void ABatteryConnectinGameCharacter::SetupPlayerInputComponent(class UInputCompo
 	// Bind jump events
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+	PlayerInputComponent->BindAction("DropBattery", IE_Pressed, this, &ABatteryConnectinGameCharacter::DropBattery);
+	PlayerInputComponent->BindAction("InsertBattery", IE_Pressed, this, &ABatteryConnectinGameCharacter::InsertBattery);
 
 	// Bind fire event
 	PlayerInputComponent->BindAction("PrimaryAction", IE_Pressed, this, &ABatteryConnectinGameCharacter::OnPrimaryAction);
@@ -146,7 +194,7 @@ bool ABatteryConnectinGameCharacter::EnableTouchscreenMovement(class UInputCompo
 
 		return true;
 	}
-	
+
 	return false;
 }
 

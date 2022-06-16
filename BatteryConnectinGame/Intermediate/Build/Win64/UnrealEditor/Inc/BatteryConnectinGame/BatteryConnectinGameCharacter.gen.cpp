@@ -16,6 +16,8 @@ void EmptyLinkFunctionForGeneratedCodeBatteryConnectinGameCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	BATTERYCONNECTINGAME_API UClass* Z_Construct_UClass_ABatteryPickup_NoRegister();
 // End Cross Module References
 	struct Z_Construct_UDelegateFunction_BatteryConnectinGame_OnUseItem__DelegateSignature_Statics
 	{
@@ -71,6 +73,14 @@ void EmptyLinkFunctionForGeneratedCodeBatteryConnectinGameCharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_OnUseItem_MetaData[];
 #endif
 		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnUseItem;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_BatteryPickupClass_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_BatteryPickupClass;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_DistanceToSpawnBattery_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_DistanceToSpawnBattery;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -125,11 +135,32 @@ void EmptyLinkFunctionForGeneratedCodeBatteryConnectinGameCharacter() {}
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::NewProp_OnUseItem = { "OnUseItem", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABatteryConnectinGameCharacter, OnUseItem), Z_Construct_UDelegateFunction_BatteryConnectinGame_OnUseItem__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::NewProp_OnUseItem_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::NewProp_OnUseItem_MetaData)) }; // 3600595473
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::NewProp_BatteryPickupClass_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Classes" },
+		{ "Comment", "/* Class reference to spawn the battery pickup **/" },
+		{ "ModuleRelativePath", "BatteryConnectinGameCharacter.h" },
+		{ "ToolTip", "Class reference to spawn the battery pickup *" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::NewProp_BatteryPickupClass = { "BatteryPickupClass", nullptr, (EPropertyFlags)0x0044000000010001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABatteryConnectinGameCharacter, BatteryPickupClass), Z_Construct_UClass_ABatteryPickup_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::NewProp_BatteryPickupClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::NewProp_BatteryPickupClass_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::NewProp_DistanceToSpawnBattery_MetaData[] = {
+		{ "Category", "BatteryConnectinGameCharacter" },
+		{ "Comment", "/* Freely editable distance variable to spawn the battery pickup a set distance from the player **/" },
+		{ "ModuleRelativePath", "BatteryConnectinGameCharacter.h" },
+		{ "ToolTip", "Freely editable distance variable to spawn the battery pickup a set distance from the player *" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::NewProp_DistanceToSpawnBattery = { "DistanceToSpawnBattery", nullptr, (EPropertyFlags)0x0040000000010001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABatteryConnectinGameCharacter, DistanceToSpawnBattery), METADATA_PARAMS(Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::NewProp_DistanceToSpawnBattery_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::NewProp_DistanceToSpawnBattery_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::NewProp_Mesh1P,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::NewProp_FirstPersonCameraComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::NewProp_TurnRateGamepad,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::NewProp_OnUseItem,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::NewProp_BatteryPickupClass,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::NewProp_DistanceToSpawnBattery,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABatteryConnectinGameCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABatteryConnectinGameCharacter>::IsAbstract,
@@ -167,9 +198,9 @@ void EmptyLinkFunctionForGeneratedCodeBatteryConnectinGameCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryConnectinGameCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ABatteryConnectinGameCharacter, ABatteryConnectinGameCharacter::StaticClass, TEXT("ABatteryConnectinGameCharacter"), &Z_Registration_Info_UClass_ABatteryConnectinGameCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABatteryConnectinGameCharacter), 572512557U) },
+		{ Z_Construct_UClass_ABatteryConnectinGameCharacter, ABatteryConnectinGameCharacter::StaticClass, TEXT("ABatteryConnectinGameCharacter"), &Z_Registration_Info_UClass_ABatteryConnectinGameCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABatteryConnectinGameCharacter), 570850945U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryConnectinGameCharacter_h_2408927713(TEXT("/Script/BatteryConnectinGame"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryConnectinGameCharacter_h_4053944849(TEXT("/Script/BatteryConnectinGame"),
 		Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryConnectinGameCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryConnectinGameCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

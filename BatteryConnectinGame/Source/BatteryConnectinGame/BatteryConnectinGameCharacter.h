@@ -12,6 +12,7 @@ class USceneComponent;
 class UCameraComponent;
 class UAnimMontage;
 class USoundBase;
+class ABatteryPickup;
 
 // Declaration of the delegate that will be called when the Primary Action is triggered
 // It is declared as dynamic so it can be accessed also in Blueprints
@@ -86,6 +87,13 @@ protected:
 	TouchData TouchItem;
 
 protected:
+	
+	/** Drops the battery from the player's hands if the user is holding it */
+	void DropBattery();
+	
+	/** Inserts the battery into a power station if the user is holding it */
+	void InsertBattery();
+	
 	// APawn interface
 	virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;
 	// End of APawn interface
@@ -112,4 +120,14 @@ public:
 
 	/** Sets whether the user is holding a battery */
 	void SetIsHoldingBattery(bool bHoldState);
+
+private:
+
+	/* Class reference to spawn the battery pickup **/
+	UPROPERTY(Category = "Classes", EditDefaultsOnly, meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<ABatteryPickup> BatteryPickupClass; 
+
+	/* Freely editable distance variable to spawn the battery pickup a set distance from the player **/ 
+	UPROPERTY(EditDefaultsOnly)
+	float DistanceToSpawnBattery;
 };
