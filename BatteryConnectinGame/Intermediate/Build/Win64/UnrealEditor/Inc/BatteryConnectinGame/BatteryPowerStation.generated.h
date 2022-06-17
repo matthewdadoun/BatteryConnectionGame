@@ -18,15 +18,23 @@ class AMovingPlatform;
 #define FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSetMovingPlatforms); \
-	DECLARE_FUNCTION(execSetPlatformsActivated);
+	DECLARE_FUNCTION(execSetPowerStationActivated);
 
 
 #define FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSetMovingPlatforms); \
-	DECLARE_FUNCTION(execSetPlatformsActivated);
+	DECLARE_FUNCTION(execSetPowerStationActivated);
 
 
+#define FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_EVENT_PARMS \
+	struct BatteryPowerStation_eventBP_PlayBatteryAnimation_Parms \
+	{ \
+		bool bBatteryPlaced; \
+	};
+
+
+#define FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_CALLBACK_WRAPPERS
 #define FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABatteryPowerStation(); \
@@ -69,12 +77,16 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABatteryPowerStation)
 
 
-#define FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_10_PROLOG
+#define FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_10_PROLOG \
+	FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_EVENT_PARMS
+
+
 #define FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_SPARSE_DATA \
 	FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_RPC_WRAPPERS \
+	FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_CALLBACK_WRAPPERS \
 	FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_INCLASS \
 	FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_STANDARD_CONSTRUCTORS \
 public: \
@@ -86,6 +98,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_SPARSE_DATA \
 	FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_CALLBACK_WRAPPERS \
 	FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_INCLASS_NO_PURE_DECLS \
 	FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_ENHANCED_CONSTRUCTORS \
 private: \

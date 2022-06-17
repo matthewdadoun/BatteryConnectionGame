@@ -118,12 +118,12 @@ void ABatteryConnectinGameCharacter::InsertBattery()
 		{
 			if(bIsHoldingBattery && !PowerStation->GetIsPowerStationActivated())
 			{
-				PowerStation->SetPlatformsActivated(true);
+				PowerStation->SetPowerStationActivated(true);
 				SetIsHoldingBattery(false);
 			}
 			else if (!bIsHoldingBattery && PowerStation->GetIsPowerStationActivated())
 			{
-				PowerStation->SetPlatformsActivated(false);
+				PowerStation->SetPowerStationActivated(false);
 				SetIsHoldingBattery(true);
 			}
 		}

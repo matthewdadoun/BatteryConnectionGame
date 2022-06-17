@@ -33,10 +33,13 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable)
-	void SetPlatformsActivated(bool bPlatformsMoving);
+	void SetPowerStationActivated(bool bPowerStationActivated);
 
 	UFUNCTION(BlueprintCallable)
 	void SetMovingPlatforms(const TArray<AMovingPlatform*>& MyPlatforms);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void BP_PlayBatteryAnimation(bool bBatteryPlaced);
 
 	FORCEINLINE bool GetIsPowerStationActivated() { return bActivated; }
 };
