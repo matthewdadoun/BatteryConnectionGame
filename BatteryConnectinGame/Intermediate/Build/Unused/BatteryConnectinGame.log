@@ -2,45 +2,5 @@
   Log file: C:\Users\Mydoj\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal\projects\BatteryGame\BatteryConnectionGame).
   Creating makefile for BatteryConnectinGameEditor (no existing makefile)
-  Parsing headers for BatteryConnectinGameEditor
-    Running UnrealHeaderTool "D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\BatteryConnectinGame.uproject" "D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Intermediate\Build\Win64\BatteryConnectinGameEditor\Development\BatteryConnectinGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Mydoj\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for BatteryConnectinGameEditor in 20.6932173 seconds
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< Updated upstream' in UnrealBuildTool.ConfigFileSection of D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Saved\Config\WindowsEditor\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Saved\Config\WindowsEditor\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stashed changes' in UnrealBuildTool.ConfigFileSection of D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Saved\Config\WindowsEditor\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< Updated upstream' in UnrealBuildTool.ConfigFileSection of D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Saved\Config\WindowsEditor\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Saved\Config\WindowsEditor\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stashed changes' in UnrealBuildTool.ConfigFileSection of D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Saved\Config\WindowsEditor\EditorPerProjectUserSettings.ini
-  Building BatteryConnectinGameEditor...
-  Using Visual Studio 2019 14.29.30145 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
-    Executing up to 6 processes, one per physical core
-    Requested 1.5 GB free memory per action, 7.8 GB available: limiting max parallel actions to 5
-  Building 23 actions with 5 processes...
-  [1/23] Resource Default.rc2
-  [2/23] Compile SharedPCH.Engine.ShadowErrors.cpp
-  [3/23] Compile MovingPlatform.cpp
-  [4/23] Compile BatteryConnectinGameGameMode.cpp
-  [5/23] Compile BatteryPowerStation.cpp
-  [6/23] Compile BatteryPickup.gen.cpp
-  [7/23] Compile TP_PickUpComponent.gen.cpp
-  [8/23] Compile BatteryConnectinGameCharacter.gen.cpp
-  [9/23] Compile TP_PickUpComponent.cpp
-  [10/23] Compile BatteryConnectinGameCharacter.cpp
-  [11/23] Compile BatteryConnectinGame.init.gen.cpp
-  [12/23] Compile BatteryPowerStation.gen.cpp
-  [13/23] Compile BatteryConnectinGameGameMode.gen.cpp
-  [14/23] Compile TP_WeaponComponent.gen.cpp
-  [15/23] Compile TP_WeaponComponent.cpp
-  [16/23] Compile BatteryConnectinGame.cpp
-  [17/23] Compile BatteryConnectinGameProjectile.gen.cpp
-  [18/23] Compile BatteryConnectinGameProjectile.cpp
-  [19/23] Compile MovingPlatform.gen.cpp
-  [20/23] Compile BatteryPickup.cpp
-  [21/23] Link UnrealEditor-BatteryConnectinGame.lib
-     Creating library D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Intermediate\Build\Win64\UnrealEditor\Development\BatteryConnectinGame\UnrealEditor-BatteryConnectinGame.lib and object D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Intermediate\Build\Win64\UnrealEditor\Development\BatteryConnectinGame\UnrealEditor-BatteryConnectinGame.exp
-  [22/23] Link UnrealEditor-BatteryConnectinGame.dll
-     Creating library D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Intermediate\Build\Win64\UnrealEditor\Development\BatteryConnectinGame\UnrealEditor-BatteryConnectinGame.suppressed.lib and object D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Intermediate\Build\Win64\UnrealEditor\Development\BatteryConnectinGame\UnrealEditor-BatteryConnectinGame.suppressed.exp
-  [23/23] WriteMetadata BatteryConnectinGameEditor.target
-  Total time in Parallel executor: 68.57 seconds
-  Total execution time: 93.94 seconds
+  Target is up to date
+  Total execution time: 17.11 seconds
