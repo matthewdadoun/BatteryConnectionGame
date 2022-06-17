@@ -18,7 +18,6 @@ ABatteryPowerStation::ABatteryPowerStation()
 void ABatteryPowerStation::BeginPlay()
 {
 	Super::BeginPlay();
-	bActivated = false;
 }
 
 // Called every frame
@@ -27,13 +26,18 @@ void ABatteryPowerStation::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-void ABatteryPowerStation::SetPlatformsActivated(bool bPlatformsMoving)
+void ABatteryPowerStation::SetPowerStationActivated(bool bPowerStationActivated)
 {
-	for (AMovingPlatform* MovingPlatform : MovingPlatforms)
+	if (MovingPlatforms.Num() > 0)
 	{
-		MovingPlatform->GetInterpToMovementComponent()->SetComponentTickEnabled(bPlatformsMoving);
-		bActivated = bPlatformsMoving;
+		for (AMovingPlatform* MovingPlatform : MovingPlatforms)
+		{
+			MovingPlatform->GetInterpToMovementComponent()->SetComponentTickEnabled(bPowerStationActivated);
+		}
 	}
+
+	bActivated = bPowerStationActivated;
+	BP_PlayBatteryAnimation(bPowerStationActivated);
 }
 
 void ABatteryPowerStation::SetMovingPlatforms(const TArray<AMovingPlatform*>& MyPlatforms)
