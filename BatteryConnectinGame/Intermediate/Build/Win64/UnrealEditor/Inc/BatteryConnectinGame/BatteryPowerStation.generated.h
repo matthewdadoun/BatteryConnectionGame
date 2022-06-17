@@ -8,14 +8,25 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AMovingPlatform;
 #ifdef BATTERYCONNECTINGAME_BatteryPowerStation_generated_h
 #error "BatteryPowerStation.generated.h already included, missing '#pragma once' in BatteryPowerStation.h"
 #endif
 #define BATTERYCONNECTINGAME_BatteryPowerStation_generated_h
 
 #define FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_SPARSE_DATA
-#define FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_RPC_WRAPPERS
-#define FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetMovingPlatforms); \
+	DECLARE_FUNCTION(execSetPlatformsActivated);
+
+
+#define FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetMovingPlatforms); \
+	DECLARE_FUNCTION(execSetPlatformsActivated);
+
+
 #define FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABatteryPowerStation(); \

@@ -3,6 +3,7 @@
 #include "BatteryConnectinGameCharacter.h"
 #include "BatteryConnectinGameProjectile.h"
 #include "BatteryPickup.h"
+#include "BatteryPowerStation.h"
 #include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -65,9 +66,7 @@ void ABatteryConnectinGameCharacter::DropBattery()
 
 		// Sets which objects are part of the line trace
 		FCollisionObjectQueryParams ObjectQueryParams;
-		ObjectQueryParams.AddObjectTypesToQuery(ECC_WorldDynamic);
 		ObjectQueryParams.AddObjectTypesToQuery(ECC_WorldStatic);
-		ObjectQueryParams.AddObjectTypesToQuery(ECC_Pawn);
 
 		FHitResult HitResult;
 
@@ -76,11 +75,12 @@ void ABatteryConnectinGameCharacter::DropBattery()
 		SpawnParams.Instigator = this;
 
 		FRotator ProjRotation = FRotationMatrix::MakeFromX(EndLocation - StartLocation).Rotator();
-		
+
 		if (GetWorld()->SweepSingleByObjectType(HitResult, StartLocation, EndLocation, FQuat::Identity, ObjectQueryParams, Shape, Params))
 		{
-			// Overwrites trace end with impact point in world
-			EndLocation = HitResult.ImpactPoint;
+			if (HitResult.GetActor())
+				// Overwrites trace end with impact point in world
+				EndLocation = HitResult.ImpactPoint;
 		}
 
 		//spawn actor at EndLocation
@@ -92,6 +92,42 @@ void ABatteryConnectinGameCharacter::DropBattery()
 
 void ABatteryConnectinGameCharacter::InsertBattery()
 {
+	/** Setting beginning and ending point of the line trace */
+	FVector StartLocation = GetFirstPersonCameraComponent()->GetComponentLocation();
+	FVector EndLocation = GetFirstPersonCameraComponent()->GetComponentLocation() + (GetControlRotation().Vector() * DistanceToSpawnBattery);
+
+	FCollisionShape Shape;
+	Shape.SetSphere(20.0f);
+
+	FCollisionQueryParams Params;
+	Params.AddIgnoredActor(this);
+
+	// Sets which objects are part of the line trace
+	FCollisionObjectQueryParams ObjectQueryParams;
+	ObjectQueryParams.AddObjectTypesToQuery(ECC_WorldStatic);
+
+	FHitResult HitResult;
+
+	FActorSpawnParameters SpawnParams;
+	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	SpawnParams.Instigator = this;
+
+	if (GetWorld()->SweepSingleByObjectType(HitResult, StartLocation, EndLocation, FQuat::Identity, ObjectQueryParams, Shape, Params))
+	{
+		if (ABatteryPowerStation* PowerStation = Cast<ABatteryPowerStation>(HitResult.GetActor()))
+		{
+			if(bIsHoldingBattery && !PowerStation->GetIsPowerStationActivated())
+			{
+				PowerStation->SetPlatformsActivated(true);
+				SetIsHoldingBattery(false);
+			}
+			else if (!bIsHoldingBattery && PowerStation->GetIsPowerStationActivated())
+			{
+				PowerStation->SetPlatformsActivated(false);
+				SetIsHoldingBattery(true);
+			}
+		}
+	}
 }
 
 void ABatteryConnectinGameCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)

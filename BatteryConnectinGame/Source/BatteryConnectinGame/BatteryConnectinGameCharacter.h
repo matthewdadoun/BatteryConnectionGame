@@ -13,6 +13,7 @@ class UCameraComponent;
 class UAnimMontage;
 class USoundBase;
 class ABatteryPickup;
+class ATriggerBox;
 
 // Declaration of the delegate that will be called when the Primary Action is triggered
 // It is declared as dynamic so it can be accessed also in Blueprints
@@ -125,7 +126,10 @@ private:
 
 	/* Class reference to spawn the battery pickup **/
 	UPROPERTY(Category = "Classes", EditDefaultsOnly, meta = (AllowPrivateAccess = "true"))
-	TSubclassOf<ABatteryPickup> BatteryPickupClass; 
+	TSubclassOf<ABatteryPickup> BatteryPickupClass;
+
+	UPROPERTY(Category = "Classes", EditDefaultsOnly, meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<ATriggerBox> TriggerBoxClass; 
 
 	/* Freely editable distance variable to spawn the battery pickup a set distance from the player **/ 
 	UPROPERTY(EditDefaultsOnly)

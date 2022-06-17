@@ -6,13 +6,13 @@
 #include "GameFramework/Actor.h"
 #include "BatteryPowerStation.generated.h"
 
-class AMovingPlatform; 
+class AMovingPlatform;
 UCLASS()
 class BATTERYCONNECTINGAME_API ABatteryPowerStation : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	ABatteryPowerStation();
 
@@ -25,10 +25,18 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly)
 	TArray<AMovingPlatform*> MovingPlatforms;
-	
-public:	
+
+	bool bActivated;
+
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	void SetPlatformsMoving(bool bPlatformsMoving);
+	UFUNCTION(BlueprintCallable)
+	void SetPlatformsActivated(bool bPlatformsMoving);
+
+	UFUNCTION(BlueprintCallable)
+	void SetMovingPlatforms(const TArray<AMovingPlatform*>& MyPlatforms);
+
+	FORCEINLINE bool GetIsPowerStationActivated() { return bActivated; }
 };

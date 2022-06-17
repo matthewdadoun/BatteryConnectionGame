@@ -41,6 +41,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	FORCEINLINE UInterpToMovementComponent* GetInterpToMovementComponent(){ return InterpToMovementComponent; }
+
 	/* Used to get a reference to the InterpToMovementComponent */
 
 };
