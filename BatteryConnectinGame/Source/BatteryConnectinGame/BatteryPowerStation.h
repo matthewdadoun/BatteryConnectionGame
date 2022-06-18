@@ -26,6 +26,7 @@ protected:
 	UPROPERTY(EditDefaultsOnly)
 	TArray<AMovingPlatform*> MovingPlatforms;
 
+	UPROPERTY(BlueprintReadOnly)
 	bool bActivated;
 
 public:

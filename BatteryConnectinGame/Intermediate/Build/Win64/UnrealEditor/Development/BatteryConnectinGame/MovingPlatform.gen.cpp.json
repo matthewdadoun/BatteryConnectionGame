@@ -1,17 +1,17 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "d:\\unreal\\projects\\batterygame\\batteryconnectiongame\\batteryconnectingame\\intermediate\\build\\win64\\unrealeditor\\inc\\batteryconnectingame\\movingplatform.gen.cpp",
+        "Source": "d:\\unreal projects\\batteryconnectiongame\\batteryconnectingame\\intermediate\\build\\win64\\unrealeditor\\inc\\batteryconnectingame\\movingplatform.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\unreal\\projects\\batterygame\\batteryconnectiongame\\batteryconnectingame\\intermediate\\build\\win64\\batteryconnectingameeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "d:\\unreal projects\\batteryconnectiongame\\batteryconnectingame\\intermediate\\build\\win64\\batteryconnectingameeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "d:\\unreal\\projects\\batterygame\\batteryconnectiongame\\batteryconnectingame\\intermediate\\build\\win64\\unrealeditor\\development\\batteryconnectingame\\definitions.batteryconnectingame.h",
-            "d:\\unreal\\projects\\batterygame\\batteryconnectiongame\\batteryconnectingame\\source\\batteryconnectingame\\movingplatform.h",
-            "d:\\unreal\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\interptomovementcomponent.h",
-            "d:\\unreal\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\movementcomponent.h",
-            "d:\\unreal\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\movementcomponent.generated.h",
-            "d:\\unreal\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\interptomovementcomponent.generated.h",
-            "d:\\unreal\\projects\\batterygame\\batteryconnectiongame\\batteryconnectingame\\intermediate\\build\\win64\\unrealeditor\\inc\\batteryconnectingame\\movingplatform.generated.h"
+            "d:\\unreal projects\\batteryconnectiongame\\batteryconnectingame\\intermediate\\build\\win64\\unrealeditor\\development\\batteryconnectingame\\definitions.batteryconnectingame.h",
+            "d:\\unreal projects\\batteryconnectiongame\\batteryconnectingame\\source\\batteryconnectingame\\movingplatform.h",
+            "d:\\program files\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\interptomovementcomponent.h",
+            "d:\\program files\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\movementcomponent.h",
+            "d:\\program files\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\movementcomponent.generated.h",
+            "d:\\program files\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\interptomovementcomponent.generated.h",
+            "d:\\unreal projects\\batteryconnectiongame\\batteryconnectingame\\intermediate\\build\\win64\\unrealeditor\\inc\\batteryconnectingame\\movingplatform.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

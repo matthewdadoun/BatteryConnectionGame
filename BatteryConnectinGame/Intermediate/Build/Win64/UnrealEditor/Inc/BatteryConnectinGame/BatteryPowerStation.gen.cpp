@@ -182,6 +182,11 @@ void EmptyLinkFunctionForGeneratedCodeBatteryPowerStation() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_MovingPlatforms_MetaData[];
 #endif
 		static const UECodeGen_Private::FArrayPropertyParams NewProp_MovingPlatforms;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_bActivated_MetaData[];
+#endif
+		static void NewProp_bActivated_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_bActivated;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -217,10 +222,22 @@ void EmptyLinkFunctionForGeneratedCodeBatteryPowerStation() {}
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_MovingPlatforms = { "MovingPlatforms", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABatteryPowerStation, MovingPlatforms), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_MovingPlatforms_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_MovingPlatforms_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_bActivated_MetaData[] = {
+		{ "Category", "BatteryPowerStation" },
+		{ "ModuleRelativePath", "BatteryPowerStation.h" },
+	};
+#endif
+	void Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_bActivated_SetBit(void* Obj)
+	{
+		((ABatteryPowerStation*)Obj)->bActivated = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_bActivated = { "bActivated", nullptr, (EPropertyFlags)0x0020080000000014, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ABatteryPowerStation), &Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_bActivated_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_bActivated_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_bActivated_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABatteryPowerStation_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_PowerStationMeshComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_MovingPlatforms_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_MovingPlatforms,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_bActivated,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABatteryPowerStation_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABatteryPowerStation>::IsAbstract,
@@ -258,9 +275,9 @@ void EmptyLinkFunctionForGeneratedCodeBatteryPowerStation() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ABatteryPowerStation, ABatteryPowerStation::StaticClass, TEXT("ABatteryPowerStation"), &Z_Registration_Info_UClass_ABatteryPowerStation, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABatteryPowerStation), 4076296339U) },
+		{ Z_Construct_UClass_ABatteryPowerStation, ABatteryPowerStation::StaticClass, TEXT("ABatteryPowerStation"), &Z_Registration_Info_UClass_ABatteryPowerStation, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABatteryPowerStation), 2799111416U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_2349260504(TEXT("/Script/BatteryConnectinGame"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_762497412(TEXT("/Script/BatteryConnectinGame"),
 		Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
