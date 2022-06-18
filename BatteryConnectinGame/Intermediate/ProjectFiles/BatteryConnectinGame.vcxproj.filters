@@ -84,6 +84,12 @@
     <ClInclude Include="..\..\Source\BatteryConnectinGame\MovingPlatform.h">
       <Filter>Source\BatteryConnectinGame</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BatteryConnectinGame\TitleScreenWidget.cpp">
+      <Filter>Source\BatteryConnectinGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BatteryConnectinGame\TitleScreenWidget.h">
+      <Filter>Source\BatteryConnectinGame</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\BatteryConnectinGame\TP_PickUpComponent.cpp">
       <Filter>Source\BatteryConnectinGame</Filter>
     </ClCompile>
