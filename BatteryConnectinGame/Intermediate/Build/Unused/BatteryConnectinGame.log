@@ -2,5 +2,41 @@
   Log file: C:\Users\Mydoj\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal\projects\BatteryGame\BatteryConnectionGame).
   Creating makefile for BatteryConnectinGameEditor (no existing makefile)
-  Target is up to date
-  Total execution time: 7.57 seconds
+  Parsing headers for BatteryConnectinGameEditor
+    Running UnrealHeaderTool "D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\BatteryConnectinGame.uproject" "D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Intermediate\Build\Win64\BatteryConnectinGameEditor\Development\BatteryConnectinGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Mydoj\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for BatteryConnectinGameEditor in 18.554151 seconds
+  Building BatteryConnectinGameEditor...
+  Using Visual Studio 2019 14.29.30145 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+    Executing up to 6 processes, one per physical core
+    Requested 1.5 GB free memory per action, 7.8 GB available: limiting max parallel actions to 5
+  Building 25 actions with 5 processes...
+  [1/25] Resource Default.rc2
+  [2/25] Compile SharedPCH.Engine.ShadowErrors.cpp
+  [3/25] Compile BatteryPickup.gen.cpp
+  [4/25] Compile MovingPlatform.gen.cpp
+  [5/25] Compile TP_PickUpComponent.cpp
+  [6/25] Compile TP_WeaponComponent.cpp
+  [7/25] Compile BatteryConnectinGameCharacter.cpp
+  [8/25] Compile BatteryPowerStation.cpp
+  [9/25] Compile MovingPlatform.cpp
+  [10/25] Compile BatteryConnectinGameProjectile.cpp
+  [11/25] Compile TP_WeaponComponent.gen.cpp
+  [12/25] Compile BatteryConnectinGameProjectile.gen.cpp
+  [13/25] Compile BatteryPickup.cpp
+  [14/25] Compile BatteryConnectinGame.init.gen.cpp
+  [15/25] Compile BatteryConnectinGame.cpp
+  [16/25] Compile BatteryConnectinGameGameMode.cpp
+  [17/25] Compile BatteryConnectinGameGameMode.gen.cpp
+  [18/25] Compile TP_PickUpComponent.gen.cpp
+  [19/25] Compile BatteryConnectinGameCharacter.gen.cpp
+  [20/25] Compile BatteryPowerStation.gen.cpp
+  [21/25] Compile TitleScreenWidget.gen.cpp
+  [22/25] Compile TitleScreenWidget.cpp
+  [23/25] Link UnrealEditor-BatteryConnectinGame.lib
+     Creating library D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Intermediate\Build\Win64\UnrealEditor\Development\BatteryConnectinGame\UnrealEditor-BatteryConnectinGame.lib and object D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Intermediate\Build\Win64\UnrealEditor\Development\BatteryConnectinGame\UnrealEditor-BatteryConnectinGame.exp
+  [24/25] Link UnrealEditor-BatteryConnectinGame.dll
+     Creating library D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Intermediate\Build\Win64\UnrealEditor\Development\BatteryConnectinGame\UnrealEditor-BatteryConnectinGame.suppressed.lib and object D:\Unreal\projects\BatteryGame\BatteryConnectionGame\BatteryConnectinGame\Intermediate\Build\Win64\UnrealEditor\Development\BatteryConnectinGame\UnrealEditor-BatteryConnectinGame.suppressed.exp
+  [25/25] WriteMetadata BatteryConnectinGameEditor.target
+  Total time in Parallel executor: 71.57 seconds
+  Total execution time: 95.56 seconds
