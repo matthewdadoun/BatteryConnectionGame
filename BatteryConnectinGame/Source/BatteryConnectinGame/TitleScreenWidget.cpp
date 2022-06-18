@@ -19,7 +19,6 @@ void UTitleScreenWidget::NativeConstruct()
 
 void UTitleScreenWidget::StartGame()
 {
-	FLatentActionInfo LatentInfo;
 	UGameplayStatics::OpenLevel(GetWorld(), FName("FinalRoom"), true);
 }
 
