@@ -1,5 +1,6 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\Mydoj\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal\projects\BatteryGame\BatteryConnectionGame).
+  Creating makefile for BatteryConnectinGameEditor (no existing makefile)
   Target is up to date
-  Total execution time: 0.86 seconds
+  Total execution time: 7.57 seconds
