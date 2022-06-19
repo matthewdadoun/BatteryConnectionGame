@@ -9,288 +9,100 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b318d556-725c-465f-88b9-957e68b2d6a0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BatteryConnectinGame/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BatteryConnectinGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BatteryConnectinGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatteryConnectinGame.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryConnectinGame.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-BatteryConnectinGame.patch_0.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-BatteryConnectinGame.patch_0.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/BatteryConnectinGameEditor.target" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/BatteryConnectinGameEditor.target" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-BatteryConnectinGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-BatteryConnectinGame.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/BatteryConnectinGameModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/BatteryConnectinGameModuleRules.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/BatteryConnectinGameModuleRulesManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/BatteryConnectinGameModuleRulesManifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Unused/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/ActionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/BatteryConnectinGameEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/BatteryConnectinGameEditor.uhtmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/BatteryConnectinGameEditor.uhtpath" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/BatteryConnectinGameEditor.uhtpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/DependencyCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.cpp.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.obj.response.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.cpp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.cpp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.obj.response.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/Makefile.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/ActionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGame.cpp.lc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGame.cpp.obj.response.lc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGame.cpp.obj.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGame.init.gen.cpp.obj.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.cpp.lc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.cpp.obj.response.lc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.cpp.obj.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.gen.cpp.lc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.gen.cpp.obj.response.lc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.gen.cpp.obj.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.cpp.lc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.cpp.obj.response.lc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.cpp.obj.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.gen.cpp.lc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.gen.cpp.obj.response.lc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.gen.cpp.obj.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.cpp.lc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.cpp.obj.response.lc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.cpp.obj.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.gen.cpp.lc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.gen.cpp.obj.response.lc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.gen.cpp.obj.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPickup.cpp.obj.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPickup.gen.cpp.obj.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPowerStation.cpp.obj.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPowerStation.gen.cpp.obj.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/Default.rc2.res.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/Definitions.BatteryConnectinGame.h.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.cpp.lc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.cpp.obj.response.lc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.cpp.obj.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.gen.cpp.lc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.gen.cpp.obj.response.lc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.gen.cpp.obj.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.cpp.lc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.cpp.obj.response.lc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.cpp.obj.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.gen.cpp.lc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.gen.cpp.obj.response.lc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.gen.cpp.obj.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.cpp.lc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.cpp.obj.response.lc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.cpp.obj.response.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.gen.cpp.lc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.gen.cpp.obj.response.lc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.gen.cpp.obj.response.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/TargetMetadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/BatteryConnectinGameEditor/Development/TargetMetadata.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGame.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGame.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGame.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGame.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGame.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGame.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGame.init.gen.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGame.init.gen.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGame.init.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGame.init.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGame.init.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGame.init.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.gen.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.gen.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameCharacter.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.gen.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.gen.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameGameMode.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.gen.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.gen.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryConnectinGameProjectile.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPickup.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPickup.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPickup.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPickup.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPickup.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPickup.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPickup.gen.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPickup.gen.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPickup.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPickup.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPickup.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPickup.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPowerStation.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPowerStation.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPowerStation.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPowerStation.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPowerStation.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPowerStation.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPowerStation.gen.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPowerStation.gen.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPowerStation.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPowerStation.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPowerStation.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/BatteryPowerStation.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/Default.rc2.res.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/Default.rc2.res.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/Default.rc2.res.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/Default.rc2.res.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.gen.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.gen.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/MovingPlatform.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.gen.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.gen.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_PickUpComponent.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.gen.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.gen.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TP_WeaponComponent.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TitleScreenWidget.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TitleScreenWidget.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TitleScreenWidget.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TitleScreenWidget.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TitleScreenWidget.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TitleScreenWidget.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TitleScreenWidget.gen.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TitleScreenWidget.gen.cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TitleScreenWidget.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TitleScreenWidget.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TitleScreenWidget.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/TitleScreenWidget.gen.cpp.obj.response.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/UnrealEditor-BatteryConnectinGame.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/UnrealEditor-BatteryConnectinGame.dll.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/UnrealEditor-BatteryConnectinGame.dll.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/UnrealEditor-BatteryConnectinGame.dll.response.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/UnrealEditor-BatteryConnectinGame.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/UnrealEditor-BatteryConnectinGame.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/UnrealEditor-BatteryConnectinGame.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/UnrealEditor-BatteryConnectinGame.lib.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/UnrealEditor-BatteryConnectinGame.lib.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/UnrealEditor-BatteryConnectinGame.lib.response.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/UnrealEditor-BatteryConnectinGame.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/BatteryConnectinGame/UnrealEditor-BatteryConnectinGame.suppressed.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/BatteryConnectinGame/BatteryConnectinGame.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/BatteryConnectinGame/BatteryConnectinGame.init.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/BatteryConnectinGame/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/BatteryConnectinGame/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Editor.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Engine.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/GameUserSettings.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Input.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/BatteryConnectinGame.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/BatteryConnectinGame.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/BatteryConnectinGame.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/BatteryConnectinGame.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/BatteryConnectinGame.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/BatteryConnectinGame.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/BatteryConnectSequence_Auto3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/BatteryStation_Auto2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/BatteryPickup_BP_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/BatteryStation_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/BatteryStation_Auto2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/BatteryStation_Auto3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/BatteryStation_Auto4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/DewCanFull_BP_Auto4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/N64Controller_Auto2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Blueprints/SpacePlaneToyPlatform_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/EF_TwinsRoom/Common/MasterMaterial/Master_Props_Mat_Auto2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/EF_TwinsRoom/Common/Materials/Glass/WM_GlassDirty_a_Mat_2_Auto2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/EF_TwinsRoom/Materials/TwinsRoomBedQuilt_a_Mat_Auto2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/FinalRoom_Auto1.umap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/FinalRoom_Auto2.umap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/FinalRoom_Auto3.umap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/FinalRoom_Auto4.umap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/FinalRoom_Auto5.umap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_Skeleton_Auto4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Linear_Stair_Brush2_StaticMesh_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/Material_001_Auto2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/Material_002_Auto2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/batteryStuff/SM_Battery_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/battery_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/battery_Skeleton_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/Structure/Ceiling/Celeing_Skylight_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/assets/LAVALamp_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/assets/LAVALamp_PhysicsAsset_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/assets/LAVALamp_Skeleton_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/assets/LavaLarge_Auto2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/assets/n64Controller_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/bedroom_walls_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/forts/FortPirateLookout_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/forts/FortPirateLookout_Auto3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/forts/FortSpaceshipTop_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/forts/FortSpaceship_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/forts/PirateShip_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/forts/ShipCannon_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/forts/ShipCannon_Auto2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/forts/WoodenPostTexture_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/forts/flag_Auto2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/forts/platformSpaceship_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/forts/ropePhone_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/bedroom/forts/sails_Auto2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/metal_Auto2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Models/red_Auto2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/TestRoom_Auto1.umap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/TestRoom_Auto2.umap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/TestRoom_Auto3.umap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/TestRoom_Auto4.umap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/TestRoom_Auto5.umap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/TestRoom_Auto6.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/TargetInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/TargetInfo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-07FC34DB43814F251E51D9AEEB7639CE_0000/BatteryConnectinGame_2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-07FC34DB43814F251E51D9AEEB7639CE_0000/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-07FC34DB43814F251E51D9AEEB7639CE_0000/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-07FC34DB43814F251E51D9AEEB7639CE_0000/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-192EBAFC4F4F8844CE6309AAB47C4086_0000/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-192EBAFC4F4F8844CE6309AAB47C4086_0000/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-192EBAFC4F4F8844CE6309AAB47C4086_0000/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-192EBAFC4F4F8844CE6309AAB47C4086_0000/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-19A7D45B4B9F0DEBF51999BF3E075338_0000/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-19A7D45B4B9F0DEBF51999BF3E075338_0000/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-19A7D45B4B9F0DEBF51999BF3E075338_0000/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-19A7D45B4B9F0DEBF51999BF3E075338_0000/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-65F5064045097C231ED1519C710D22EF_0000/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-65F5064045097C231ED1519C710D22EF_0000/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-65F5064045097C231ED1519C710D22EF_0000/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-65F5064045097C231ED1519C710D22EF_0000/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-65F5064045097C231ED1519C710D22EF_0001/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-65F5064045097C231ED1519C710D22EF_0001/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-65F5064045097C231ED1519C710D22EF_0001/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-65F5064045097C231ED1519C710D22EF_0001/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-65F5064045097C231ED1519C710D22EF_0002/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-65F5064045097C231ED1519C710D22EF_0002/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-65F5064045097C231ED1519C710D22EF_0002/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-65F5064045097C231ED1519C710D22EF_0002/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-695BFEF24862A5A81B0ED19BEA177FA4_0000/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-695BFEF24862A5A81B0ED19BEA177FA4_0000/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-695BFEF24862A5A81B0ED19BEA177FA4_0000/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-695BFEF24862A5A81B0ED19BEA177FA4_0000/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-695BFEF24862A5A81B0ED19BEA177FA4_0001/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-695BFEF24862A5A81B0ED19BEA177FA4_0001/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-695BFEF24862A5A81B0ED19BEA177FA4_0001/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-695BFEF24862A5A81B0ED19BEA177FA4_0001/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-695BFEF24862A5A81B0ED19BEA177FA4_0002/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-695BFEF24862A5A81B0ED19BEA177FA4_0002/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-695BFEF24862A5A81B0ED19BEA177FA4_0002/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-695BFEF24862A5A81B0ED19BEA177FA4_0002/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-6B8E3F8B47C0D93081B4519D8D55D945_0000/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-6B8E3F8B47C0D93081B4519D8D55D945_0000/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-6B8E3F8B47C0D93081B4519D8D55D945_0000/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-6B8E3F8B47C0D93081B4519D8D55D945_0000/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-6B8E3F8B47C0D93081B4519D8D55D945_0001/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-6B8E3F8B47C0D93081B4519D8D55D945_0001/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-6B8E3F8B47C0D93081B4519D8D55D945_0001/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-6B8E3F8B47C0D93081B4519D8D55D945_0001/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-6EE5FDC34E22FDCC47127198840AC5FA_0000/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-6EE5FDC34E22FDCC47127198840AC5FA_0000/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-6EE5FDC34E22FDCC47127198840AC5FA_0000/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-6EE5FDC34E22FDCC47127198840AC5FA_0000/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-77EAFB794C50C55C6978779D2B0A3AB0_0000/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-77EAFB794C50C55C6978779D2B0A3AB0_0000/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-77EAFB794C50C55C6978779D2B0A3AB0_0000/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-77EAFB794C50C55C6978779D2B0A3AB0_0000/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-77EAFB794C50C55C6978779D2B0A3AB0_0001/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-77EAFB794C50C55C6978779D2B0A3AB0_0001/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-77EAFB794C50C55C6978779D2B0A3AB0_0001/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-77EAFB794C50C55C6978779D2B0A3AB0_0001/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-7E004E494689A320D7A1F08DCBA53A14_0000/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-7E004E494689A320D7A1F08DCBA53A14_0000/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-7E004E494689A320D7A1F08DCBA53A14_0000/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-7E004E494689A320D7A1F08DCBA53A14_0000/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-7E004E494689A320D7A1F08DCBA53A14_0001/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-7E004E494689A320D7A1F08DCBA53A14_0001/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-7E004E494689A320D7A1F08DCBA53A14_0001/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-7E004E494689A320D7A1F08DCBA53A14_0001/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-8323B4C3493996EEF55F9B9D9632B4AB_0000/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-8323B4C3493996EEF55F9B9D9632B4AB_0000/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-8323B4C3493996EEF55F9B9D9632B4AB_0000/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-8323B4C3493996EEF55F9B9D9632B4AB_0000/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-8323B4C3493996EEF55F9B9D9632B4AB_0001/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-8323B4C3493996EEF55F9B9D9632B4AB_0001/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-8323B4C3493996EEF55F9B9D9632B4AB_0001/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-8323B4C3493996EEF55F9B9D9632B4AB_0001/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-8323B4C3493996EEF55F9B9D9632B4AB_0002/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-8323B4C3493996EEF55F9B9D9632B4AB_0002/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-8323B4C3493996EEF55F9B9D9632B4AB_0002/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-8323B4C3493996EEF55F9B9D9632B4AB_0002/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-90FA27404DFF39D51E9DF38405DBACD7_0000/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-90FA27404DFF39D51E9DF38405DBACD7_0000/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-90FA27404DFF39D51E9DF38405DBACD7_0000/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-90FA27404DFF39D51E9DF38405DBACD7_0000/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-90FA27404DFF39D51E9DF38405DBACD7_0001/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-90FA27404DFF39D51E9DF38405DBACD7_0001/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-90FA27404DFF39D51E9DF38405DBACD7_0001/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-90FA27404DFF39D51E9DF38405DBACD7_0001/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-90FA27404DFF39D51E9DF38405DBACD7_0002/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-90FA27404DFF39D51E9DF38405DBACD7_0002/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-90FA27404DFF39D51E9DF38405DBACD7_0002/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-90FA27404DFF39D51E9DF38405DBACD7_0002/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-977CCCF54A63976463BC5484E85FB6F9_0000/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-977CCCF54A63976463BC5484E85FB6F9_0000/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-977CCCF54A63976463BC5484E85FB6F9_0000/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-977CCCF54A63976463BC5484E85FB6F9_0000/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-A986B065472E33189B05FBAF03D067D7_0000/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-A986B065472E33189B05FBAF03D067D7_0000/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-A986B065472E33189B05FBAF03D067D7_0000/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-A986B065472E33189B05FBAF03D067D7_0000/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-D161CF074C687F74B5A617917587543A_0000/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-D161CF074C687F74B5A617917587543A_0000/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-D161CF074C687F74B5A617917587543A_0000/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-D161CF074C687F74B5A617917587543A_0000/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-D161CF074C687F74B5A617917587543A_0001/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-D161CF074C687F74B5A617917587543A_0001/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-D161CF074C687F74B5A617917587543A_0001/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-D161CF074C687F74B5A617917587543A_0001/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-D161CF074C687F74B5A617917587543A_0002/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-D161CF074C687F74B5A617917587543A_0002/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-D161CF074C687F74B5A617917587543A_0002/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-D161CF074C687F74B5A617917587543A_0002/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-F9A6349D49BE0BE83C80B382D9863F34_0000/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-F9A6349D49BE0BE83C80B382D9863F34_0000/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-F9A6349D49BE0BE83C80B382D9863F34_0000/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-F9A6349D49BE0BE83C80B382D9863F34_0000/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-FB532E9C4C42A7B733FDB7ACA4331ACE_0000/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-FB532E9C4C42A7B733FDB7ACA4331ACE_0000/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-FB532E9C4C42A7B733FDB7ACA4331ACE_0000/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-FB532E9C4C42A7B733FDB7ACA4331ACE_0000/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-FB532E9C4C42A7B733FDB7ACA4331ACE_0001/BatteryConnectinGame.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-FB532E9C4C42A7B733FDB7ACA4331ACE_0001/CrashContext.runtime-xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-FB532E9C4C42A7B733FDB7ACA4331ACE_0001/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-FB532E9C4C42A7B733FDB7ACA4331ACE_0001/UEMinidump.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BatteryConnectinGame-backup-2022.06.17-15.58.00.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BatteryConnectinGame-backup-2022.06.17-16.36.41.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BatteryConnectinGame-backup-2022.06.17-16.38.13.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BatteryConnectinGame-backup-2022.06.17-16.39.30.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BatteryConnectinGame-backup-2022.06.17-17.38.16.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BatteryConnectinGame-backup-2022.06.17-20.24.59.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BatteryConnectinGame-backup-2022.06.17-20.30.35.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BatteryConnectinGame-backup-2022.06.17-22.36.09.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BatteryConnectinGame-backup-2022.06.18-00.13.51.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BatteryConnectinGame-backup-2022.06.18-02.43.12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/BatteryConnectinGame-backup-2022.06.18-21.11.33.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/BatteryConnectinGame.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/BatteryConnectinGame.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BatteryConnectinGame_2-backup-2022.06.12-19.51.42.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BatteryConnectinGame_2-backup-2022.06.16-18.11.51.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/BatteryConnectinGame_2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2022.06.09-13.40.13.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2022.06.09-13.50.28.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2022.06.09-13.54.51.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2022.06.10-12.33.36.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2022.06.10-12.44.05.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2022.06.15-12.27.30.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2022.06.15-18.05.05.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2022.06.16-11.31.19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2022.06.16-14.16.09.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2022.06.16-17.07.36.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2022.06.16-23.08.01.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2022.06.17-15.19.06.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2022.06.17-18.40.56.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2022.06.17-18.41.35.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,18 +118,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.6290957&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="C++ Project.BatteryConnectinGame">
     <configuration name="BatteryConnectinGame" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -541,6 +354,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655574584617</updated>
       <workItem from="1655574612955" duration="3149000" />
+      <workItem from="1655608807723" duration="421000" />
     </task>
     <servers />
   </component>
