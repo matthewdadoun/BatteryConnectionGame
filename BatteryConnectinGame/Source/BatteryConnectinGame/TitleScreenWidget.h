@@ -11,7 +11,8 @@
  */
 
 class UImage;
-class UButton; 
+class UButton;
+class UWidgetSwitcher; 
 UCLASS()
 class BATTERYCONNECTINGAME_API UTitleScreenWidget : public UUserWidget
 {
@@ -39,6 +40,9 @@ private:
 	
 	UPROPERTY(EditDefaultsOnly, meta = (BindWidget = "true", AllowPrivateAccess = "true"))
 	UButton* ExitButton;
+
+	UPROPERTY(EditDefaultsOnly, meta = (BindWidget = "true", AllowPrivateAccess = "true"))
+	UWidgetSwitcher* WidgetSwitcher;
 	
 private:
 
@@ -50,6 +54,9 @@ private:
 
 	UFUNCTION()
 	void ShowControls();
+
+	UFUNCTION()
+	void OnBackButtonClicked();
 
 	UFUNCTION()
 	void ExitGame(); 

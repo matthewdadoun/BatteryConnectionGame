@@ -14,7 +14,6 @@ void EmptyLinkFunctionForGeneratedCodeBatteryPowerStation() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_BatteryConnectinGame();
 	BATTERYCONNECTINGAME_API UClass* Z_Construct_UClass_AMovingPlatform_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(ABatteryPowerStation::execSetMovingPlatforms)
 	{
@@ -173,10 +172,6 @@ void EmptyLinkFunctionForGeneratedCodeBatteryPowerStation() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_PowerStationMeshComponent_MetaData[];
-#endif
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_PowerStationMeshComponent;
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_MovingPlatforms_Inner;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_MovingPlatforms_MetaData[];
@@ -206,14 +201,6 @@ void EmptyLinkFunctionForGeneratedCodeBatteryPowerStation() {}
 		{ "ModuleRelativePath", "BatteryPowerStation.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_PowerStationMeshComponent_MetaData[] = {
-		{ "Category", "BatteryPowerStation" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "BatteryPowerStation.h" },
-	};
-#endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_PowerStationMeshComponent = { "PowerStationMeshComponent", nullptr, (EPropertyFlags)0x00200800000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABatteryPowerStation, PowerStationMeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_PowerStationMeshComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_PowerStationMeshComponent_MetaData)) };
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_MovingPlatforms_Inner = { "MovingPlatforms", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AMovingPlatform_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_MovingPlatforms_MetaData[] = {
@@ -234,7 +221,6 @@ void EmptyLinkFunctionForGeneratedCodeBatteryPowerStation() {}
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_bActivated = { "bActivated", nullptr, (EPropertyFlags)0x0020080000000014, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ABatteryPowerStation), &Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_bActivated_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_bActivated_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_bActivated_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABatteryPowerStation_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_PowerStationMeshComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_MovingPlatforms_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_MovingPlatforms,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABatteryPowerStation_Statics::NewProp_bActivated,
@@ -275,9 +261,9 @@ void EmptyLinkFunctionForGeneratedCodeBatteryPowerStation() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ABatteryPowerStation, ABatteryPowerStation::StaticClass, TEXT("ABatteryPowerStation"), &Z_Registration_Info_UClass_ABatteryPowerStation, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABatteryPowerStation), 2799111416U) },
+		{ Z_Construct_UClass_ABatteryPowerStation, ABatteryPowerStation::StaticClass, TEXT("ABatteryPowerStation"), &Z_Registration_Info_UClass_ABatteryPowerStation, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABatteryPowerStation), 2507031257U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_762497412(TEXT("/Script/BatteryConnectinGame"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_1389921343(TEXT("/Script/BatteryConnectinGame"),
 		Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_BatteryPowerStation_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

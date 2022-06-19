@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "BatteryConnectinGame",
-			"Path": "D:\\Unreal\\projects\\BatteryGame\\BatteryConnectionGame\\BatteryConnectinGame\\Source\\BatteryConnectinGame.Target.cs",
+			"Path": "D:\\Unreal Projects\\BatteryConnectionGame\\BatteryConnectinGame\\Source\\BatteryConnectinGame.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "BatteryConnectinGameEditor",
-			"Path": "D:\\Unreal\\projects\\BatteryGame\\BatteryConnectionGame\\BatteryConnectinGame\\Source\\BatteryConnectinGameEditor.Target.cs",
+			"Path": "D:\\Unreal Projects\\BatteryConnectionGame\\BatteryConnectinGame\\Source\\BatteryConnectinGameEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

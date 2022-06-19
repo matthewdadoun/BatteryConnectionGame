@@ -15,12 +15,20 @@ void EmptyLinkFunctionForGeneratedCodeTitleScreenWidget() {}
 	UPackage* Z_Construct_UPackage__Script_BatteryConnectinGame();
 	UMG_API UClass* Z_Construct_UClass_UImage_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UButton_NoRegister();
+	UMG_API UClass* Z_Construct_UClass_UWidgetSwitcher_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(UTitleScreenWidget::execExitGame)
 	{
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		P_THIS->ExitGame();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UTitleScreenWidget::execOnBackButtonClicked)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnBackButtonClicked();
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UTitleScreenWidget::execShowControls)
@@ -49,6 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeTitleScreenWidget() {}
 		UClass* Class = UTitleScreenWidget::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "ExitGame", &UTitleScreenWidget::execExitGame },
+			{ "OnBackButtonClicked", &UTitleScreenWidget::execOnBackButtonClicked },
 			{ "ShowControls", &UTitleScreenWidget::execShowControls },
 			{ "ShowStory", &UTitleScreenWidget::execShowStory },
 			{ "StartGame", &UTitleScreenWidget::execStartGame },
@@ -74,6 +83,28 @@ void EmptyLinkFunctionForGeneratedCodeTitleScreenWidget() {}
 		if (!ReturnFunction)
 		{
 			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UTitleScreenWidget_ExitGame_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UTitleScreenWidget_OnBackButtonClicked_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UTitleScreenWidget_OnBackButtonClicked_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "TitleScreenWidget.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UTitleScreenWidget_OnBackButtonClicked_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTitleScreenWidget, nullptr, "OnBackButtonClicked", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTitleScreenWidget_OnBackButtonClicked_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UTitleScreenWidget_OnBackButtonClicked_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UTitleScreenWidget_OnBackButtonClicked()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UTitleScreenWidget_OnBackButtonClicked_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -179,6 +210,10 @@ void EmptyLinkFunctionForGeneratedCodeTitleScreenWidget() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_ExitButton_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_ExitButton;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_WidgetSwitcher_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_WidgetSwitcher;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -189,6 +224,7 @@ void EmptyLinkFunctionForGeneratedCodeTitleScreenWidget() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UTitleScreenWidget_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UTitleScreenWidget_ExitGame, "ExitGame" }, // 312440230
+		{ &Z_Construct_UFunction_UTitleScreenWidget_OnBackButtonClicked, "OnBackButtonClicked" }, // 700715393
 		{ &Z_Construct_UFunction_UTitleScreenWidget_ShowControls, "ShowControls" }, // 987154983
 		{ &Z_Construct_UFunction_UTitleScreenWidget_ShowStory, "ShowStory" }, // 539898948
 		{ &Z_Construct_UFunction_UTitleScreenWidget_StartGame, "StartGame" }, // 3405587118
@@ -259,6 +295,16 @@ void EmptyLinkFunctionForGeneratedCodeTitleScreenWidget() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTitleScreenWidget_Statics::NewProp_ExitButton = { "ExitButton", nullptr, (EPropertyFlags)0x0040000000090009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTitleScreenWidget, ExitButton), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTitleScreenWidget_Statics::NewProp_ExitButton_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UTitleScreenWidget_Statics::NewProp_ExitButton_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTitleScreenWidget_Statics::NewProp_WidgetSwitcher_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "BindWidget", "true" },
+		{ "Category", "TitleScreenWidget" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "TitleScreenWidget.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTitleScreenWidget_Statics::NewProp_WidgetSwitcher = { "WidgetSwitcher", nullptr, (EPropertyFlags)0x0040000000090009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTitleScreenWidget, WidgetSwitcher), Z_Construct_UClass_UWidgetSwitcher_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTitleScreenWidget_Statics::NewProp_WidgetSwitcher_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UTitleScreenWidget_Statics::NewProp_WidgetSwitcher_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UTitleScreenWidget_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTitleScreenWidget_Statics::NewProp_TitleLogo,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTitleScreenWidget_Statics::NewProp_StartButton,
@@ -266,6 +312,7 @@ void EmptyLinkFunctionForGeneratedCodeTitleScreenWidget() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTitleScreenWidget_Statics::NewProp_StoryButton,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTitleScreenWidget_Statics::NewProp_ControlsButton,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTitleScreenWidget_Statics::NewProp_ExitButton,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTitleScreenWidget_Statics::NewProp_WidgetSwitcher,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UTitleScreenWidget_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UTitleScreenWidget>::IsAbstract,
@@ -303,9 +350,9 @@ void EmptyLinkFunctionForGeneratedCodeTitleScreenWidget() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_TitleScreenWidget_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UTitleScreenWidget, UTitleScreenWidget::StaticClass, TEXT("UTitleScreenWidget"), &Z_Registration_Info_UClass_UTitleScreenWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UTitleScreenWidget), 2901346285U) },
+		{ Z_Construct_UClass_UTitleScreenWidget, UTitleScreenWidget::StaticClass, TEXT("UTitleScreenWidget"), &Z_Registration_Info_UClass_UTitleScreenWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UTitleScreenWidget), 600009263U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_TitleScreenWidget_h_739602931(TEXT("/Script/BatteryConnectinGame"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_TitleScreenWidget_h_3230484854(TEXT("/Script/BatteryConnectinGame"),
 		Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_TitleScreenWidget_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BatteryConnectinGame_Source_BatteryConnectinGame_TitleScreenWidget_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
